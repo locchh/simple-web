@@ -22,3 +22,6 @@ While most of the inheritance is fine, it also inherits unwanted elements like `
 To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
+### Notes
+
+**Corrupted IntelliJ Cache:** *IntelliJ might have cached incorrect project settings after running `git init`. Solution: Go to File > Invalidate Caches / Restart > Invalidate and Restart. Wait for IntelliJ to re-index the project.*
